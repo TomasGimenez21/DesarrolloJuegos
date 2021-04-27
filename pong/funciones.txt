@@ -1,0 +1,31 @@
+funciones:(14:00min)
+-love.load(): la app(LOVE2) cargara el archivo
+-love.update(dt): cargara dt cada fraccion de segundo
+-love.draw():dibujar o cargar los dibujos(paletas, pelota ,etc)
+-love.graphics.printf(text, x, y, [width], [align]): Un println en java pero imprime en pantalla y tiene en cuenta
+la data del parentesis
+-love.window.setmode(width, height, params): pantalla completa?
+-love.graphics.setDefaultFilter(min, mag): un filtro que pone la imagen borrosa cuando agrandamos o
+acicamosj( hace lo contrario)
+-love.keypressed(key): se asigna una tecla y cada vez que es tocada se llama a la funcion (una especie de
+trigger)
+-love.event.quit():salir de la app
+-love.graphics.newFont(path, size): Cambia la fuente. CARPETA pong2 ARCHIVO font.tff y un TAMAÑO
+-love.graphics.setFont(Font):activa la fuente?
+-love.graphics.clearr,g,b,a):limpia la panatalla de ese color
+-love.graphics.rectangle(mode, x, y, width, height): dibuja un rectangulo(ej: min 29)
+/*PONG 3*/
+-love.keyboard.isDown(key):boolean
+/*PONG 4*/
+-math.andomseed(num): num aleatorio
+-os.time():pasa el tiempo a segundos(num muy grsnde) para obtener numeros a aleatorios
+-math.random(min, max): numero dentro de ese rango
+-math.min() y math.max(): Max o MIN entre dos n
+/*PONG 6*/
+-love.window.setTitle(title):poner un ttulo a la pestaña
+-love.timer.getFPS():Saber los FPS
+/*PONG 11*/
+love.audio.newSource(path, [type]): ejecuta un archivo de audio
+descargar bfxr(1:27:00min)        
+  /*PONG 12*/
+-love.resize(width, hright):minimizar o agrandar el tamaño de la pantalla 
